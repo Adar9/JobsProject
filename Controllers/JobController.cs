@@ -44,7 +44,8 @@ namespace JobBoardCRUD.Controllers
         {
             context.Jobs.Add(job);
             context.SaveChanges();
-            return new CreatedAtRouteResult("GetJob", new { JobId = job.JobId}, job);
+            //return new CreatedAtRouteResult("GetJob", new { JobId = job.JobId}, job);
+            return Ok();
         }
 
         [HttpPut("{JobId}")]
