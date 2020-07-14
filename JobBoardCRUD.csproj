@@ -12,5 +12,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JobBoardModels\JobBoardModels.csproj" />
+  </ItemGroup>
+
 
 </Project>

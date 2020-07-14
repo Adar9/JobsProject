@@ -1,5 +1,5 @@
-﻿using JobBoardCRUD.Contexts;
-using JobBoardCRUD.Entities;
+﻿using JobBoardModels.Context;
+using JobBoardModels.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,9 +13,9 @@ namespace JobBoardCRUD.Controllers
     [ApiController]
     public class JobController : ControllerBase
     {
-        private readonly WebDbContext context;
+        private readonly ApplicationDbContext context;
 
-        public JobController(WebDbContext context)
+        public JobController(ApplicationDbContext context)
         {
             this.context = context;
         }
