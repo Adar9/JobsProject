@@ -5026,11 +5026,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\redua\\source\\repos\\JobBoardCRUD\\JobBoardCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\redua\\source\\repos\\JobsSaonGroupProject\\JobBoardCRUD.csproj",
       "projectName": "JobBoardCRUD",
-      "projectPath": "C:\\Users\\redua\\source\\repos\\JobBoardCRUD\\JobBoardCRUD.csproj",
+      "projectPath": "C:\\Users\\redua\\source\\repos\\JobsSaonGroupProject\\JobBoardCRUD.csproj",
       "packagesPath": "C:\\Users\\redua\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\redua\\source\\repos\\JobBoardCRUD\\obj\\",
+      "outputPath": "C:\\Users\\redua\\source\\repos\\JobsSaonGroupProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
